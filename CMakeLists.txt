@@ -22,3 +22,4 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "Clang" AND NOT MSVC)
 endif()
 
 add_subdirectory(lab01-threads)
+add_subdirectory(lab02-blur)
