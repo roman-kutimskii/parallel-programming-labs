@@ -28,3 +28,6 @@ cmake --build build --target lab01-threads
 
 Компилятор с поддержкой C++20 — GCC 13+, Clang 17+ или MSVC 19.29+
 (нужны `std::jthread`, `std::format`, `std::osyncstream`). CMake 3.20+.
+
+В libc++ (Clang, Apple Clang) `std::osyncstream` пока экспериментальный, поэтому
+для Clang CMake-проект добавляет флаг `-fexperimental-library`.
