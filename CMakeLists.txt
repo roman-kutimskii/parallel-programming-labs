@@ -7,6 +7,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(Threads REQUIRED)
 
+enable_testing()
+
 if(MSVC)
     add_compile_options(/W4 /utf-8)
 else()
@@ -23,3 +25,4 @@ endif()
 
 add_subdirectory(lab01-threads)
 add_subdirectory(lab02-blur)
+add_subdirectory(lab03-bank)

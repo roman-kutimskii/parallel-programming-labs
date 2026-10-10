@@ -7,6 +7,7 @@
 |---|---------|------|
 | 1 | [`lab01-threads`](lab01-threads) | Работа с потоками, `std::jthread` |
 | 2 | [`lab02-blur`](lab02-blur) | Размытие BMP в N потоках, замеры ускорения |
+| 3 | [`lab03-bank`](lab03-bank) | Потокобезопасный банк, `std::mutex`, `std::atomic` |
 
 ## Сборка
 
